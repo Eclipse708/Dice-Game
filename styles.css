@@ -1,0 +1,98 @@
+.container {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+
+.dice {
+  text-align: center;
+  display: inline-block;
+
+}
+
+body {
+  background-color: #f3f5f8;
+}
+
+h1 {
+  margin: 20px;
+  font-family: 'Orbitron', sans-serif;
+  text-shadow: 5px 0 #232931;
+  font-size: 7rem;
+  color: #8d9492;
+}
+
+p {
+  font-size: 2rem;
+  color: #000000;
+  font-family: 'Orbitron', sans-serif;
+}
+
+img {
+  width: 80%;
+}
+
+footer {
+  margin-top: 5%;
+  color: #000000;
+  text-align: center;
+  font-family: 'Orbitron', sans-serif;
+
+}
+
+::selection {
+  background-color: black;
+  color: white;
+}
+
+.logo {
+  width: 50px;
+  height: auto;
+  padding: 5px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+}
+
+.button {
+  font-family: 'Orbitron', sans-serif;
+  background-color: black;
+  color: #f3f5f8;
+  font-size: 20px;
+  width: 6rem;
+  height: 4.8rem;
+  border: none;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+@media (max-width: 520px) {
+
+  h1 {
+    margin: 0px;
+    font-family: 'Orbitron', sans-serif;
+    text-shadow: 5px 0 #232931;
+    font-size: 3rem;
+    color: #8d9492;
+  }
+
+  p {
+    font-size: 1.5rem;
+    color: #000000;
+    font-family: 'Orbitron', sans-serif;
+  }
+
+  img {
+    width: 50%;
+  }
+
+  .button {
+    font-size: 15px;
+    width: 4rem;
+    height: 3.6rem;
+  }
+  
+}
